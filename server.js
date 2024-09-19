@@ -3,7 +3,7 @@ const connectDB = require('./config/db');
 const bookRoutes= require('./routes/bookRoutes')
 
 const app = express();
-const PORT = process.env.PORT || 3000;
+const PORT =  3000;
 
 // Connect to MongoDB
 connectDB();
